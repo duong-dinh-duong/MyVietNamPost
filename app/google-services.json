@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "319915031895",
+    "project_id": "myvietnampost",
+    "storage_bucket": "myvietnampost.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319915031895:android:40706a867dcf0c628ed212",
+        "android_client_info": {
+          "package_name": "com.example.myvietnampost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdZD7pWvgENeLT5wY77MBr7vXm0Dn2Lkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
