@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My VietNam Post</string>
+    <string name="HT">Họ và Tên <font color="#FF0000">*</font></string>
+    <string name="SDT">Số điện thoại <font color="#FF0000">*</font></string>
+    <string name="DC">Địa chỉ chi tiết <font color="#FF0000">*</font></string>
+    <string name="Tinh">Tỉnh/Thành phố <font color="#FF0000">*</font></string>
+    <string name="Huyen">Quận/Huyện <font color="#FF0000">*</font></string>
+    <string name="Xa">Phường/Xã <font color="#FF0000">*</font></string>
+    <string name="MK1"> Mật khẩu <font color="#FF0000">*</font></string>
+    <string name="MK2">Xác nhận mật khẩu <font color="#FF0000">*</font></string>
+
 </resources>

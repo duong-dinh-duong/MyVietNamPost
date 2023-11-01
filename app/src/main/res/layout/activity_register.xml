@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Họ và Tên"
+                    android:hint="@string/HT"
                     android:maxLength="100"
                     android:inputType="text"
                     android:imeOptions="actionNext"
@@ -74,21 +74,26 @@
                     />
             </com.google.android.material.textfield.TextInputLayout>
             <!-- số điện thoại-->
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etSDT"
+
+
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginBottom="16dp"
-                    android:hint="Số điện thoại"
-                    android:maxLength="100"
-                    android:inputType="number"
-                    android:imeOptions="actionNext"
-                    />
-            </com.google.android.material.textfield.TextInputLayout>
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etSDT"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/SDT"
+                        android:maxLength="100"
+                        android:inputType="number"
+                        android:imeOptions="actionNext"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -98,7 +103,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Địa chỉ chi tiết"
+                    android:hint="@string/DC"
                     android:maxLength="100"
                     android:inputType="text"
                     android:imeOptions="actionNext"
@@ -114,7 +119,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Tỉnh/Thành phố "
+                    android:hint="@string/Tinh"
                     android:maxLength="100"
                     android:inputType="text"
                     android:imeOptions="actionNext"
@@ -129,7 +134,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Quận/Huyện"
+                    android:hint="@string/Huyen"
                     android:maxLength="100"
                     android:inputType="text"
                     android:imeOptions="actionNext"
@@ -144,7 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Phường/Xã"
+                    android:hint="@string/Xa"
                     android:maxLength="100"
                     android:inputType="text"
                     android:imeOptions="actionNext"
@@ -162,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Mật khẩu"
+                    android:hint="@string/MK1"
                     android:maxLength="100"
                     android:imeOptions="actionNext"
                     android:inputType="textPassword" />
@@ -178,7 +183,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginBottom="16dp"
-                    android:hint="Xác nhận mật khẩu"
+                    android:hint="@string/MK2"
                     android:maxLength="100"
                     android:imeOptions="actionDone"
                     android:inputType="textPassword" />

@@ -49,8 +49,6 @@ public class registerActivity extends AppCompatActivity {
         Xa =findViewById(R.id.P_X);
         HT =findViewById(R.id.etHT);
         password2 =findViewById(R.id.etPassword2);
-
-
         btnR = findViewById(R.id.btnRegister);
         btnLogin = findViewById(R.id.btnLogin);
 
@@ -93,6 +91,10 @@ public class registerActivity extends AppCompatActivity {
             Toast.makeText(registerActivity.this, "chưa nhập số điên thoại", Toast.LENGTH_SHORT).show();
             return;
         }
+        if (SDT.length()<10 || SDT.length()>10) {
+            Toast.makeText(registerActivity.this, "số điện thoại không đúng định dạng", Toast.LENGTH_SHORT).show();
+            return;
+        }
         if(TextUtils.isEmpty(strDCCT))
         {
             Toast.makeText(registerActivity.this, "chưa nhập đia chỉ chi tiết", Toast.LENGTH_SHORT).show();
@@ -113,14 +115,19 @@ public class registerActivity extends AppCompatActivity {
             Toast.makeText(registerActivity.this, "chưa nhập Xã/Phường ", Toast.LENGTH_SHORT).show();
             return;
         }
-        if(TextUtils.isEmpty(strPassword))
+        if(TextUtils.isEmpty(strPassword) )
         {
             Toast.makeText(registerActivity.this, "chưa nhập mật khẩu", Toast.LENGTH_SHORT).show();
             return;
         }
+        if (strPassword.length()<6) {
+            Toast.makeText(registerActivity.this, "Mật Khẩu phải ít nhất 6 ký tự", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         if(TextUtils.isEmpty(strPassword2))
         {
-            Toast.makeText(registerActivity.this, "chưa nhập mật khẩu", Toast.LENGTH_SHORT).show();
+            Toast.makeText(registerActivity.this, "chưa nhập lại mật khẩu", Toast.LENGTH_SHORT).show();
             return;
         }
         if(strPassword.compareTo(strPassword2)!=0){
@@ -152,6 +159,9 @@ public class registerActivity extends AppCompatActivity {
 
 
     }
+
+
+
 
 
 
