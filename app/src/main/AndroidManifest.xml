@@ -14,13 +14,22 @@
             android:name=".IntroActivity"
             android:exported="false" />
         <activity
+            android:name=".OrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_notify"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".registerActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".OrderDomesticallyctivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

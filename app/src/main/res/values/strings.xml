@@ -8,5 +8,7 @@
     <string name="Xa">Phường/Xã <font color="#FF0000">*</font></string>
     <string name="MK1"> Mật khẩu <font color="#FF0000">*</font></string>
     <string name="MK2">Xác nhận mật khẩu <font color="#FF0000">*</font></string>
+    <string name="NG">người gửi <font color="#FF0000">*</font></string>
+    <string name="NN">người nhận <font color="#FF0000">*</font></string>
 
 </resources>
