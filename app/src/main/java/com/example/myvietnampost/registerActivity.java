@@ -39,6 +39,7 @@ public class registerActivity extends AppCompatActivity {
 
 
 
+
     private void initUi() {
         Email = findViewById(R.id.etEmail);
         password = findViewById(R.id.etPassword);
