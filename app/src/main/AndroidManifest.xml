@@ -11,7 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyVietNamPost">
         <activity
-            android:name=".IntroActivity"
+            android:name=".OrderAbroaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderDomesticallyctivity"
             android:exported="false" />
         <activity
             android:name=".OrderActivity"
@@ -29,7 +32,7 @@
             android:name=".registerActivity"
             android:exported="false" />
         <activity
-            android:name=".OrderDomesticallyctivity"
+            android:name=".IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

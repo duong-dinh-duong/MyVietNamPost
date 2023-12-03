@@ -132,26 +132,28 @@
                 >
 
                 <LinearLayout
+                    android:id="@+id/TaoDon"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
-                    android:orientation="vertical"
+                    android:background="@drawable/boder_main"
                     android:gravity="center"
-                    android:background="@drawable/boder_main" >
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="110dp"
                         android:layout_height="110dp"
-                        android:src="@drawable/imgae2"
                         android:scaleType="centerCrop"
-                        />
+                        android:src="@drawable/imgae2" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Tạo đơn"
                         android:textColor="@color/black"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp" />
                 </LinearLayout>
 
                 <LinearLayout
