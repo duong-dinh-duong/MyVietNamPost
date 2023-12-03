@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 public class OrderDomesticallyctivity extends AppCompatActivity {
     ImageView imageView1;
+    LinearLayout layout1;
     private int clickCount1 = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,7 @@ public class OrderDomesticallyctivity extends AppCompatActivity {
 
     private void initUi() {
         imageView1 = findViewById(R.id.TTNN_NG);
+        layout1 = findViewById(R.id.id01);
     }
     private void initListener() {
         imageView1.setOnClickListener(new View.OnClickListener() {
@@ -29,9 +32,14 @@ public class OrderDomesticallyctivity extends AppCompatActivity {
                 if (clickCount1 % 2 == 1) {
                     // Hiển thị hình ảnh 1 khi clickCount là số lẻ
                     imageView1.setImageResource(R.drawable.angle_down);
+                    layout1.setVisibility(View.GONE);
+
                 } else {
                     // Hiển thị hình ảnh 2 khi clickCount là số chẵn
                     imageView1.setImageResource(R.drawable.baseline_expand_less_24);
+
+                    layout1.setVisibility(View.VISIBLE);
+
                 }
             }
         });
